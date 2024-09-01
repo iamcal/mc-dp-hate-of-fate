@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "iamcal:iamcal",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wither_skeleton_skull"
+    },
+    "b": {
+      "item": "minecraft:diamond_block"
+    },
+    "c": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "id": "minecraft:end_rod",
+    "count": 1,
+    "components": {
+      "minecraft:custom_data": {"hand_of_fate": 1},
+      "minecraft:enchantment_glint_override": true,
+      "minecraft:item_name": "{\"color\":\"dark_red\",\"italic\":true,\"text\":\"Hand of Fate\"}"
+    }
+  }
+}
